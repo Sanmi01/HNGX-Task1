@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+}
+
+.slack-img-div{
+    padding: 2rem;
+    
+}
+.slack-img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+}
+
+p {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
