@@ -11,6 +11,7 @@ function getCurrentDay(){
 function getCurrentUTCTime(){
     const currentDate = new Date();
     time.innerHTML = currentDate.getTime();
+    setTimeout(() => getCurrentUTCTime(), 1000);
 }
 
 getCurrentDay();
